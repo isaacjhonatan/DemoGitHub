@@ -1,9 +1,12 @@
-public interface ISampleInterface
+namespace DemoGithub
 {
-    // Property declaration:
-    string Name
+    public interface ISampleInterface
     {
-        get;
-        set;
+        // Property declaration:
+        string Name
+        {
+            get;
+            set;
+        }
     }
 }
